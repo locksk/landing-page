@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
 
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
     padding:0px;
     margin:0px;
     max-width:100vw;
@@ -41,14 +43,16 @@ header {
     padding:6vh 4vw;
     position:fixed;
     font-weight:bold;
-    background:transparent;
-    color:#ffffff;
-    transition:0.4s ease-in-out;
+    background:#ffffff;
+    color:#4056a1;
+    transition: top 0.2s ease-in-out;
     z-index:2;
 }
 header table {
     width:100%;
 }
+
+
 #logo {
     width:20%;
 }
@@ -86,7 +90,7 @@ header table {
     margin:0px auto;
 }
 #logo {
-    font-size: 32px;
+    font-size: 48px;
     color:#4056a1;
 }
 #navigation {
@@ -220,7 +224,7 @@ header table {
 #science h1 {
     padding:5px 0px;
     border-bottom:4px solid #4056a1;
-    width:8%;
+    width: 15%;
 }
 #contact {
     width:92vw;
@@ -249,42 +253,7 @@ header table {
 #contact form {
     width:100%;
 }
-#contact form input {
-    width:96%;
-    margin:20px 1%;
-    background:transparent;
-    border:0px;
-    border-bottom:3px solid #4056a1;
-    padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size:18px;
-    transition:0.4s ease-in-out;
-    color:#000;
-    font-weight:bold;
-}
-#contact form textarea {
-    width:96%;
-    margin:20px 1%;
-    padding:8px 10px;
-    border:0px;
-    border-bottom:3px solid #4056a1;
-    padding:8px 10px;
-    font-family: 'Poppins', sans-serif;
-    font-size:18px;
-    background:transparent;
-    resize:none;
-    transition:0.4s ease-in-out;
-    color:#000;
-    font-weight:bold;
-}
-#contact form input:focus {
-    outline:none;
-    border-bottom:3px solid #4056a1;
-}
-#contact form textarea:focus {
-    outline:none;
-    border-bottom:3px solid #4056a1;
-}
+
 #address {
     position:relative;
     top:-25px;
@@ -406,3 +375,31 @@ button:focus {
         color:#000;
     }
 }
+
+.scrollToTopBtn {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 48px;
+    width: 48px;
+  
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* keep it at the top of everything else */
+    z-index: 100;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
+  }
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0);
+  }

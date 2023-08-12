@@ -1,28 +1,40 @@
-var width = $(window).width(); 
-window.onscroll = function(){
-if ((width >= 1000)){
-    if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        $("#header").css("background","#fff");
-        $("#header").css("color","#000");
-        $("#header").css("box-shadow","0px 0px 20px rgba(0,0,0,0.09)");
-        $("#header").css("padding","4vh 4vw");
-        $("#navigation a").hover(function(){
-            $(this).css("border-bottom","2px solid rgb(255, 44, 90)");
-        },function(){
-            $(this).css("border-bottom","2px solid transparent");
-        });
-    }else{
-        $("#header").css("background","transparent");
-        $("#header").css("color","#fff");
-        $("#header").css("box-shadow","0px 0px 0px rgba(0,0,0,0)");
-        $("#header").css("padding","6vh 4vw");
-        $("#navigation a").hover(function(){
-            $(this).css("border-bottom","2px solid #fff");
-        },function(){
-            $(this).css("border-bottom","2px solid transparent");
-        });
+// Hide Header on on scroll down
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navbarHeight = $('header').outerHeight();
+
+$(window).scroll(function(event){
+    didScroll = true;
+});
+
+setInterval(function() {
+    if (didScroll) {
+        hasScrolled();
+        didScroll = false;
     }
-}
+}, 250);
+
+function hasScrolled() {
+    var st = $(this).scrollTop();
+    
+    // Make sure they scroll more than delta
+    if(Math.abs(lastScrollTop - st) <= delta)
+        return;
+    
+    // If they scrolled down and are past the navbar, add class .nav-up.
+    // This is necessary so you never see what is "behind" the navbar.
+    if (st > lastScrollTop && st > navbarHeight){
+        // Scroll Down
+        $('header').removeClass('nav-down').addClass('nav-up');
+    } else {
+        // Scroll Up
+        if(st + $(window).height() < $(document).height()) {
+            $('header').removeClass('nav-up').addClass('nav-down');
+        }
+    }
+    
+    lastScrollTop = st;
 }
 
 function magnify(imglink){
@@ -65,3 +77,27 @@ $(document).ready(function(){
       });
   });
   
+  var scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+var rootElement = document.documentElement;
+
+function handleScroll() {
+  // Do something on scroll
+  var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+  if (rootElement.scrollTop / scrollTotal > 0.04) {
+    // Show button
+    scrollToTopBtn.classList.add("showBtn");
+  } else {
+    // Hide button
+    scrollToTopBtn.classList.remove("showBtn");
+  }
+}
+
+function scrollToTop() {
+  // Scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+}
+scrollToTopBtn.addEventListener("click", scrollToTop);
+document.addEventListener("scroll", handleScroll);
