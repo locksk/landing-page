@@ -378,7 +378,8 @@ button:focus {
 
 .scrollToTopBtn {
     background-color: black;
-    border: none;
+    border: black;
+    border-radius: 25px;
     color: white;
     cursor: pointer;
     font-size: 18px;
