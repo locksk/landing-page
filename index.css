@@ -183,6 +183,7 @@ header table {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
+    scroll-margin-top: 100px;
 }
 #work h1 {
     padding:5px 0px;
@@ -195,6 +196,7 @@ header table {
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
+    
 }
 #photos img {
     width:100%;
@@ -210,6 +212,8 @@ header table {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
+    scroll-margin-top: 100px;
+      
 }
 #bio h1 {
     padding:5px 0px;
@@ -220,6 +224,7 @@ header table {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
+    scroll-margin-top: 100px;
 }
 #science h1 {
     padding:5px 0px;
@@ -229,6 +234,7 @@ header table {
 #contact {
     width:92vw;
     padding:6vh 4vw;
+    scroll-margin-top: 100px;
 }
 #contact h1 {
     padding:5px 0px;
