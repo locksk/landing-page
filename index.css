@@ -316,10 +316,10 @@ button:focus {
 	}
 }
 body {
-	background: radial-gradient(#f6f1d3, #648880, #293f50, #062238, #000c14);
+	background: radial-gradient(at 90% top, #f6f1d3, #648880, #293f50, #062238, #000c14);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
-	height: 100vh;
+	height: 80vh;
   
 }
 
