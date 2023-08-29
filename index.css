@@ -406,18 +406,3 @@ body {
     margin-right: auto;
     width: 50%;
   }
-
-/* clicky tool tip */
-
-tippy(".item", {
-    trigger: 'click',
-    content: `item info`,
-    allowHTML: true,
-    animation: 'fade',
-    onShow(instance) {
-      let element = instance.reference;
-      instance.setContent(element.getAttribute('data-info'));
-      //console.log(instance);
-    },
-  });
- 
