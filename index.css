@@ -228,7 +228,7 @@ body {
 }
 #footer a {
     font-size:18px;
-    background-image: linear-gradient(to left, #ff41a0 0%, #535353 100%);
+    background-image: linear-gradient(to left, rgba(255, 0, 255, 0.75) 0%, rgba(0, 255, 255, 0.750) 100%);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color: transparent;
@@ -305,6 +305,7 @@ button:focus {
   /* class for image gallery */
   .portimg {
     max-width: 33%;
+    object-fit: contain;
   }
 
   @keyframes gradient {
@@ -321,9 +322,9 @@ button:focus {
 
 /* this is the one I adjusted to sort the animated header dimensions out */
 body {
-	background: radial-gradient(at 90% top, #f6f1d3, #648880, #293f50, #062238, #000c14);
+	background: radial-gradient(at top, #f6f1d3, #648880, #293f50, #062238, #000c14);
 	background-size: 300% 2500%;
-	animation: gradient 20s ease infinite;
+	animation: gradient 30s ease infinite;
 	height: 80vh;
   
 }
