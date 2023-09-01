@@ -363,14 +363,14 @@ body {
     transform:translate(-50%, 0);
     padding:10px 20px;
     color:#FFFFFF;
-    background-color:#12121262;
+    background-color:#121212;
     font-weight:normal;
     font-size:13px;
     border-radius:8px;
     position:absolute;
     z-index:99999999;
     box-sizing:border-box;
-    border:1px solid #12121262;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    border:1px solid #121212;box-shadow:0 1px 8px rgba(0,0,0,0.5);
     visibility:hidden; opacity:0; transition:opacity 0.8s;
 }
 
@@ -395,8 +395,8 @@ body {
     height:12px;
     left:50%;
     transform:translate(-50%,50%) rotate(45deg);
-    background-color:#12121262;
-    border:1px solid #12121262;box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    background-color:#121212;
+    border:1px solid #121212;box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
 /* this centers my hover over images and also adjusts the size */
