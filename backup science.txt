@@ -96,3 +96,104 @@
                   </div>
             </div>
             
+
+
+
+/* dont want to screw it up */
+
+  <div id="science">
+                <h1>science</h1>
+                <div class="row">
+                    <div class="column" style="text-align: center;">
+                      <h2>Skills</h2>
+                      
+                      <div class="btn btn-primary tooltip">
+                        <img src="https://github.com/locksk/landing-page/blob/main/photos/creative-thinking.png?raw=true" class = "center">
+                        <div class="bottom">
+                            <h3>Skills</h3>
+                            <p>insert</p>
+                            <p>something</p>
+                            <p>you</p>
+                            <p>can</p>
+                            <p>do</p>
+                            <i></i>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <div class="column" style="text-align: center;">
+                      <h2>Experience</h2>
+                 
+                      <div class="btn btn-primary tooltip">
+                        <img src="https://github.com/locksk/landing-page/blob/main/photos/search.png?raw=true" class = "center">
+                        <div class="bottom">
+                            <h3>Experience</h3>
+                            <p>insert</p>
+                            <p>something</p>
+                            <p>you</p>
+                            <p>have</p>
+                            <p>done</p>
+                            <i></i>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="column" style="text-align: center;">
+                      <h2>Research</h2>
+                   
+                      <div class="btn btn-primary tooltip">
+                        <img src="https://github.com/locksk/landing-page/blob/main/photos/writing.png?raw=true" class = "center">
+                        <div class="bottom">
+                            <h3>Research</h3>
+                            <p>Clozapine and ANC <br> <a href ="https://www.medrxiv.org/content/10.1101/2023.08.22.23294262v1"> Preprint</a> and <a href ="https://locksk.github.io/clozuk3-anc/"> Markdown </a></p>
+                            <p>change</p>
+                            <p>this</p>
+                            <p>as</p>
+                            <p>nothing</p>
+                            <i></i>
+                        </div>
+
+                    </div>
+                  </div>
+            </div>
+
+
+            
+
+              <div id="contact">
+                 <h1>contact.</h1>                 
+                 <table>
+                    <tr>
+                        <td>
+                            <div id="inner_div">
+                                <table id="inner_table">
+                                    <tr>
+                                        <td><i class="fas fa-phone"></i> &nbsp; +44 7972 073610</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-at"></i> &nbsp; siobhan-lock@hotmail.co.uk</td>
+                                    </tr>
+                                     <tr>
+                                        <td><i class="fas fa-at"></i> &nbsp; locksk@cardiff.ac.uk</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="fas fa-map-marker-alt"></i> &nbsp; South Wales, UK
+                                        </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <a href = "https://www.facebook.com/siobhanlock1" class="social"><i class="fab fa-facebook"></i></a>
+                                            <a href = "https://twitter.com/xnathema" class="social"><i class="fab fa-twitter"></i></a>
+                                            <a href = "https://www.instagram.com/siobhkl/" class="social"><i class="fab fa-instagram"></i></a>
+                                            <a href = "https://www.linkedin.com/in/siobhan-lock-874a411b0/" class="social"><i class="fab fa-linkedin"></i></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td> 
+                        
+                    </tr>
+                </table>  
+             </div> 
