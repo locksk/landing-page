@@ -73,18 +73,18 @@ document.addEventListener("scroll", handleScroll);
 const images = [
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC01759.jpg?raw=true', title: 'Aonach Eagach' },
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC01257.jpg?raw=true', title: 'Schiehallion' },
-  { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC01896.jpg?raw=true', title: 'Three Sisters' },
+  { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC01896.jpg?raw=true', title: 'Three Sisters of Glen Coe' },
   // Add more images here
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/934A7860.jpg?raw=true', title: 'Oli Sykes of BMTH' },
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/IMG_0726.jpg?raw=true', title: 'James Arthur' },
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/IMG_0393.jpg?raw=true', title: 'Steve Morse of Deep Purple' },
   // Add more images here
-  { src: 'https://github.com/locksk/landing-page/blob/main/photos/Untitled_Panorama1 small.jpg?raw=true', title: 'Sgwrd Gladys' },
+  { src: 'https://github.com/locksk/landing-page/blob/main/photos/Untitled_Panorama1 small.jpg?raw=true', title: 'Sgwd Gwladys' },
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/e934A0241.jpg?raw=true', title: 'Dinefwr Castle' },
-  { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC09575s.jpg?raw=true', title: 'Plunge pool at Sgwrd Gwladys' },
+  { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC09575s.jpg?raw=true', title: 'Plunge pool at Sgwd Gwladys' },
   // Add more images here
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/DSC02441.jpg?raw=true', title: 'Model 1 & 2 Wall Clocks at Paulin Watches' },
-  { src: 'https://github.com/locksk/landing-page/blob/main/photos/IMG_8056.jpg?raw=true', title: 'Liam Gallagher' },
+  { src: 'https://github.com/locksk/landing-page/blob/main/photos/IMG_8056.jpg?raw=true', title: 'Liam Gallagher, 2017' },
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/vertical_pano.jpg?raw=true', title: 'Milky way rising over Dunraven Bay' },
   // Add more images here
   { src: 'https://github.com/locksk/landing-page/blob/main/photos/IMG_9044.jpg?raw=true', title: 'Hayley Williams of Paramore' },
